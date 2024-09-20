@@ -26,11 +26,12 @@ body {
   bottom: 40px;
   left: 20px;
   padding: 10px 20px;
+  font-size: medium;
   background-color:transparent;
   border: 2px solid yellow;
   border-radius: 30px; /* Bordes redondeados */
   color: white;
-  font-size: 16px;
+  
   cursor: pointer;
   transition: 0.3s;
   text-shadow: 0 0 10px yellow; /* Efecto de fluorescencia */
@@ -46,13 +47,13 @@ body {
 #reproducir-btn {
   position: fixed;
   bottom: 40px;
-  left: 180px;
+  left: 175px;
   padding: 10px 20px;
   background-color:transparent;
   border: 2px solid blue;
   border-radius: 30px; /* Bordes redondeados */
   color: white;
-  font-size: 16px;
+  font-size: medium;
   cursor: pointer;
   transition: 0.3s;
   text-shadow: 0 0 10px blue; /* Efecto de fluorescencia */
@@ -89,24 +90,29 @@ body {
   }
 
 }
+
+
+
 .titulo {
-  margin-bottom: 500px;
-  
+  margin-bottom: 560px;
+  position: absolute;
   font-family: "Arial Narrow", Arial, sans-serif;
   color: white;
   position: absolute;
   font-weight: bold;
-  font-size:small;
+  font-size:x-small;
   letter-spacing: 2px;
   opacity: 0;
   animation: fadeIn 3s ease-in-out forwards;
   text-align:center;
+  box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
   text-shadow: 
-  0 0 5px yellow,  /* Sombra azul para un efecto electrizante */
-  0 0 10px yellow, 
-  0 0 15px yellow, 
-  0 0 20px yellow, 
-  0 0 25px yellow, 
+    0 0 5px yellow,  /* Sombra azul para un efecto electrizante */
+    0 0 10px yellow, 
+    0 0 15px yellow, 
+    0 0 20px yellow, 
+    0 0 25px yellow;
+  z-index: 10;
  
 }
 @keyframes fadeIn {
