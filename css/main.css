@@ -100,18 +100,18 @@ body {
   color: white;
   position: absolute;
   font-weight: bold;
-  font-size:x-small;
+  font-size:small;
   letter-spacing: 2px;
   opacity: 0;
   animation: fadeIn 3s ease-in-out forwards;
   text-align:center;
   box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
   text-shadow: 
-    0 0 5px yellow,  /* Sombra azul para un efecto electrizante */
-    0 0 10px yellow, 
-    0 0 15px yellow, 
-    0 0 20px yellow, 
-    0 0 25px yellow;
+    0 0 5px black,  /* Sombra azul para un efecto electrizante */
+    0 0 10px black, 
+    0 0 15px black, 
+    0 0 20px black, 
+    0 0 25px black;
   z-index: 10;
  
 }
