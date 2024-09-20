@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const audio = document.getElementById('audio');
     const reproducirBtn = document.getElementById('reproducir-btn');
-    audio.volume = 1;
+    audio.volume = 0.8;
 
    // Manejar el clic en el botón
     reproducirBtn.addEventListener('click', () => {
