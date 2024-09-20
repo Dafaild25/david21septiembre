@@ -2,6 +2,9 @@
 // Sincronizar las letras con la canción
 var audio = document.querySelector("audio");
 var lyrics = document.querySelector("#lyrics");
+const backgroundAudio = document.getElementById('background-audio');
+backgroundAudio.volume = 0.2; 
+
 
 // Array de objetos que contiene cada línea y su tiempo de aparición en segundos
 var lyricsData = [

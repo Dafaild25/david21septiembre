@@ -1,4 +1,4 @@
-¡Nuevo! Combinaciones de teclas … Las combinaciones de teclas de Drive se han actualizado para que puedas navegar escribiendo las primeras letras
+
 *,
 *::after,
 *::before {
@@ -21,6 +21,55 @@ body {
   perspective: 1000px;
 }
 
+#regresar-btn {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  padding: 10px 20px;
+  background-color:transparent;
+  border: 2px solid yellow;
+  border-radius: 30px; /* Bordes redondeados */
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  text-shadow: 0 0 10px yellow; /* Efecto de fluorescencia */
+  z-index: 1000;
+}
+
+#regresar-btn:hover {
+  background-color: rgba(255, 255, 0, 0.2); /* Fondo semitransparente al pasar el mouse */
+  box-shadow: 0 0 20px yellow, 0 0 40px yellow; /* Efecto de resplandor en hover */
+  color: white; /* Cambia el color del texto al hacer hover */
+}
+
+#reproducir-btn {
+  position: fixed;
+  bottom: 20px;
+  left: 180px;
+  padding: 10px 20px;
+  background-color:transparent;
+  border: 2px solid blue;
+  border-radius: 30px; /* Bordes redondeados */
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  text-shadow: 0 0 10px blue; /* Efecto de fluorescencia */
+  z-index: 1000;
+}
+
+#reproducir-btn:hover {
+  background-color: rgba(255, 255, 0, 0.2); /* Fondo semitransparente al pasar el mouse */
+  box-shadow: 0 0 20px blue, 0 0 40px blue; /* Efecto de resplandor en hover */
+  color: white; /* Cambia el color del texto al hacer hover */
+}
+
+
+
+
+
+
 #lyrics {
   font-size: 28px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -41,15 +90,24 @@ body {
 
 }
 .titulo {
-  margin-bottom: 180px;
+  margin-bottom: 600px;
+  
   font-family: "Arial Narrow", Arial, sans-serif;
-  color: yellow;
+  color: white;
   position: absolute;
   font-weight: bold;
-  letter-spacing: 10px;
+  font-size:medium;
+  letter-spacing: 2px;
   opacity: 0;
   animation: fadeIn 3s ease-in-out forwards;
-  text-align: center;
+  text-align:center;
+  text-shadow: 
+  0 0 5px yellow,  /* Sombra azul para un efecto electrizante */
+  0 0 10px yellow, 
+  0 0 15px yellow, 
+  0 0 20px yellow, 
+  0 0 25px yellow, 
+ 
 }
 @keyframes fadeIn {
   from {

@@ -1,37 +1,33 @@
-
 <!DOCTYPE html>
-<html lang="es">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="img/flowers.png" type="image/x-icon">
-    <title>Flowers</title>
+    <link rel="stylesheet" href="css/girasol.css">
+    <title>GIRASOL</title>
 </head>
-
 <body>
-    <div class="greetings">
-        <span>H</span>
-        <span>o</span>
-        <span>l</span>
-        <span>a</span>
-        <span>!</span>
-    </div>
-    <div class="description">
-        <span>Ya no estés triste 💖😊</span>
-    </div>
-    <div class="button">
-        <button class="botones">
-            <a href="flower.html" style="color: #fff;">¡Presiona para ya no estar triste!</a>
-        </button>
-    </div>
+    <div class="container">
+        <video id="background-video" autoplay muted loop>
+            <source src="video/fondo.mp4" type="video/mp4">
+            Tu navegador no soporta la etiqueta de video.
+        </video>
+        <!-- Video alternativo -->
+        <video id="video-alternativo" autoplay muted loop>
+            <source src="video/fondoV2.mp4" type="video/mp4">
+            Tu navegador no soporta la etiqueta de video.
+        </video>
+        <div class="container-texto ">
+            <p class="carta">
+                <span><strong>Hola Kathy¡¡ </strong> </span> ¿qué raras modas inventan, verdad? , ¿cómo que el 21 de septiembre se regalan flores amarillas? jajaja
+            </p>
+            <button class="fluorescent-btn"> <a href="flower.html">Ingresar</a> </button>
 
-    <!-- Créditos -->
-    <div class="credits">
-        <p>&copy; David Aimacaña-1998.</p>
+        </div>
+        
+
     </div>
+    <script src="script.js"></script>
+    
 </body>
-
 </html>
