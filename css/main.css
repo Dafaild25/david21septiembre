@@ -23,7 +23,7 @@ body {
 
 #regresar-btn {
   position: fixed;
-  bottom: 20px;
+  bottom: 40px;
   left: 20px;
   padding: 10px 20px;
   background-color:transparent;
@@ -45,7 +45,7 @@ body {
 
 #reproducir-btn {
   position: fixed;
-  bottom: 20px;
+  bottom: 40px;
   left: 180px;
   padding: 10px 20px;
   background-color:transparent;
@@ -84,19 +84,19 @@ body {
   /* Estilos específicos para dispositivos con un ancho máximo de 600px */
   #lyrics {
       font-size: 14px; /* Reduce el tamaño del texto para dispositivos más pequeños */
-      margin-bottom: 530px;
+      margin-bottom: 470px;
       letter-spacing: 3px;
   }
 
 }
 .titulo {
-  margin-bottom: 600px;
+  margin-bottom: 500px;
   
   font-family: "Arial Narrow", Arial, sans-serif;
   color: white;
   position: absolute;
   font-weight: bold;
-  font-size:medium;
+  font-size:small;
   letter-spacing: 2px;
   opacity: 0;
   animation: fadeIn 3s ease-in-out forwards;
