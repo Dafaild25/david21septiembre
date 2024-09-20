@@ -68,7 +68,7 @@ html, body {
 .carta span {
     font-size: medium; /* Ajusta el tamaño según sea necesario */
     color: white;
-    font-weight: 900;
+    font-weight: 100%;
     display: inline-block; /* Para que funcione la animación */
     animation: glow 2.5s ease-in-out infinite;
 }
