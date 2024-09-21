@@ -23,7 +23,7 @@ body {
 
 #regresar-btn {
   position: fixed;
-  bottom: 40px;
+  bottom: 20%;
   left: 20px;
   padding: 10px 20px;
   font-size: medium;
@@ -46,7 +46,7 @@ body {
 
 #reproducir-btn {
   position: fixed;
-  bottom: 40px;
+  bottom: 20%;
   left: 175px;
   padding: 10px 20px;
   background-color:transparent;
@@ -85,7 +85,7 @@ body {
   /* Estilos específicos para dispositivos con un ancho máximo de 600px */
   #lyrics {
       font-size: 14px; /* Reduce el tamaño del texto para dispositivos más pequeños */
-      margin-bottom: 470px;
+      margin-bottom: 100%;
       letter-spacing: 3px;
   }
 
@@ -96,6 +96,9 @@ body {
 .titulo {
   margin-bottom: 530px;
   position: absolute;
+  top: 5%;
+  left: 5%;
+  right: 5%;
   font-family: "Arial Narrow", Arial, sans-serif;
   color: white;
   position: absolute;
